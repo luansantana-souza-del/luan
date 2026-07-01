@@ -1,0 +1,11 @@
+git remote add origin https://github.com/SEU-USER/portfolio-turma.git
+git push -u origin main# Clone o repositório do líder
+git clone https://github.com/USUARIO-LIDER/portfolio-turma.git
+cd portfolio-turma
+
+git checkout -b pagina/seu-nome-sobrenome# Cria a pasta dentro de membros/
+mkdir -p membros/seu-nome-sobrenome
+
+git add membros/seu-nome-sobrenome/
+git commit -m "feat: adiciona pagina de seu-nome-sobrenome"
+git push origin pagina/seu-nome-sobrenome
